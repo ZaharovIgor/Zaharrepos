@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  outline: none;
+}
+.wrapper {
+  width: 73.125%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.header {
+  margin: 0px;
+  background-color: #E4E4E4;
+  padding: 30px 0;
+  width: 100%;
+}
+.header__wrapper {
+  height: 100%;
+}
+.header__logo {
+  margin: 0px;
+  float: left;
+  padding: 0 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.top-nav {
+  float: right;
+}
+.top-nav__burger {
+  border: none;
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #E4E4E4;
+  vertical-align: middle;
+  outline: none;
+}
+.top-nav__links {
+  padding: 13px 60px 0px 0px;
+}
+.top-nav__link {
+  font-size: 1.1vw;
+  display: inline-block;
+  padding: 0px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4E4E4E;
+  font-weight: bold;
+}
+.top-nav__link_active,
+.top-nav__link:hover {
+  color: #39CEB3;
+}
+.banner {
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+.banner__picture {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.banner__header1 {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 21%;
+  font-size: 2.5vw;
+}
+.banner__header2 {
+  text-align: center;
+  color: #A5A9AA;
+  position: absolute;
+  top: 37%;
+  left: 30%;
+  font-size: 1.8vw;
+}
+.banner__button {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  width: 150px ;
+  background-color: #3F8DBF;
+  color: white;
+  font-weight: 100;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  top: 52%;
+  left: 45%;
+  border-radius: 4px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #2C6385;
+  font-size: 1vw;
+}
+.container {
+  width: 1400px;
+  margin: 70px auto;
+}
+.container__picture {
+  background-image: url('images/circle1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 100px;
+  height: auto;
+  padding-right: 50px;
+}
+
+
+/*# sourceMappingURL=app.css.map*/
